@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Dla Daniela </title>
+    <title>Dla Daniela</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-<p>Hello World!<p>
-<p> <br> </p>
-<img src="ExcellentMadeupChital-max-1mb.gif" alt="Hello World">
-<p> <br> </p>
-<audio controls="controls">
-    <source src="hello-world.mp3" type="audio/mpeg">
-    <source src="hello-world.ogg" type="audio/ogg">
-</audio>
+    <main>
+        <section class="hero">
+            <img class="hero__img" src="ExcellentMadeupChital-max-1mb.gif" alt="Hello World">
+
+            <div class="container">
+                <button onclick="displayEloMordo()" class="btn" id="eloMordoBtn">
+                    Display 'Elo mordo'
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <audio id="background-audio" class="audio" controls="controls">
+        <source src="hello-world.mp3" type="audio/mpeg">
+        <source src="hello-world.ogg" type="audio/ogg">
+    </audio>
+    
+    <script src="script.js"></script>
 </body>
+
 </html>
